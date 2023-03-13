@@ -18,7 +18,7 @@ movies['Gross_Revenue_in_USD'] = pd.to_numeric(movies['Gross'].str.replace(',', 
 movies.drop('Gross', axis=1, inplace=True)
 # Setup app and layout/frontend
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 
 app.layout = dbc.Container([
     html.H1('IMDB Statistics Visualization'),
@@ -91,3 +91,5 @@ def plot_altair(xcol, ycol):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+    
+    
