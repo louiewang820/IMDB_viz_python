@@ -1,6 +1,6 @@
 # IMDB_viz_python
 
-Welcome everyone and thank you for visiting the `IMDB_Viz_python` project repository!
+Welcome everyone and thank you for visiting the `IMDB_viz_python` project repository!
 
 If you love great movies and need some help figuring out which one to watch next, then you've come to the right place as our app is exactly what you need!
 
@@ -50,4 +50,4 @@ For the dashboard, we're sourcing the data from Kaggle, which is a well-known pl
 
 ## License
 
-`IMDB_Viz_python` was created by Gaoxiang Wang. It is licensed under the terms of the MIT license.
+`IMDB_viz_python` was created by Gaoxiang Wang. It is licensed under the terms of the MIT license.
