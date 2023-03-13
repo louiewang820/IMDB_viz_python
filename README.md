@@ -9,15 +9,16 @@ To read more about our wonderful app, feel free to jump over to one of the secti
 
 - [Motivation and Purpose](#motivation-and-purpose)
 - [Dashboard Description](#dashboard-description)
+- [Usage](#usage)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [App Images](#app-images)
+- [Description of the data](#description-of-the-data)
 - [License](#license)
 
 
 ## Motivation and Purpose
 
-Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. Our user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, our dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and movie numbers presented through engaging visuals based on various metrics they can select via an interactive and intuitive interface.
+Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. Our user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, our dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and movie numbers presented through engaging visuals based on various metrics they can select via an interactive and intuitive interface. Please check out [Proposal](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/reports/proposal.md) of our R version.
 
 ## Dashboard Description
 
@@ -33,15 +34,18 @@ The boxplots and bar chart are coloured by genres and will update as the user va
 
 This dashboard is aimed at providing users with an easy-to-use and efficient way to find and select the movies they'll love.
 
+## Usage
+
 ## Installation
 
 
 ## Contributing
 
-Interested in contributing? Check out the [contributing guidelines](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contributing guidelines](https://github.com/louiewang820/IMDB_viz_python/blob/main/CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](https://github.com/louiewang820/IMDB_viz_python/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
-## App Images
+## Description of the data
 
+For the dashboard, we're sourcing the data from Kaggle, which is a well-known platform for data science and machine learning projects. It can be accessed [here](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows). The dataset contains 1000 observations of movie data with a compressive set of features. Some of the key features are the movie's title (Series_Title), the certificate issued (Certificate), release year (Released_Year), runtime (Runtime), genre (Genre), IMDB rating (IMDB_Rating), meta score (Meta_score), director (Director), star power (Star1, Star2, Star3, Star4), number of votes (No_of_votes), and box office earnings (Gross). The dataset also contains a summary of the movie (Overview) which allows the users to quickly understand if the story is something they would prefer or not.
 
 
 ## License
