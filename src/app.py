@@ -8,7 +8,7 @@ import numpy as np
 
 
 # Read in global data
-movies = pd.read_csv("data/imdb_top_1000.csv", dtype={'Runtime': str})
+movies = pd.read_csv("../data/imdb_top_1000.csv", dtype={'Runtime': str})
 movies['Runtime'] = movies['Runtime'].str.extract('(\d+)').astype(int)
 movies = movies.loc[:,['Genre','Series_Title','Released_Year','Runtime','IMDB_Rating','Meta_score','No_of_Votes', 'Gross']]
 movies['Released_Year'] =movies['Released_Year'].str.extract('(\d+)')
