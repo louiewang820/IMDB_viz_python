@@ -42,7 +42,7 @@ Navigate to the folder and run the following in terminal to create and activate 
 
 `conda activate dataviz-532`
 
-In the root directory of IMDB_viz_python folder, run `python src/app.py` to deploy the app locally.
+In the root directory of IMDB_viz_python folder, run `cd src` and then `python app.py` in termninal to deploy the app locally.
 
 
 
