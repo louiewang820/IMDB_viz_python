@@ -18,7 +18,7 @@ To read more about our wonderful app, feel free to jump over to one of the secti
 
 ## Motivation and Purpose
 
-Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. Our user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, our dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and movie numbers presented through engaging visuals based on various metrics they can select via an interactive and intuitive interface. Please check out [Proposal](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/reports/proposal.md) and [shiny app](https://ykzhang1211.shinyapps.io/IMDB_Viz_R/) of our R version. This Python version is an addition to our R version where I primarily focus on the relationship among numeric columns. By analyzing and visualizing the correlation between different movie metrics, users can make more informed decisions about which movies to watch. Additionally, this approach allows for more sophisticated recommendations based on the user's preferences and movie history.
+Choosing a good movie to watch can be a struggle sometimes and there's almost nothing worse than realizing you just spent 2 hours sitting through a horrible movie that you didn't enjoy one bit. Our user-friendly and accessible dashboard aims to help movie enthusiasts avoid this problem by helping them discover and explore new movies based on their movie watching preferences. In addition, our dashboard uses a vast database of movies to provide users with information on ratings, runtimes, and movie numbers presented through engaging visuals based on various metrics they can select via an interactive and intuitive interface. Please check out [Proposal](https://github.com/UBC-MDS/IMDB_Viz_R/blob/main/reports/proposal.md) and [shiny app](https://arjunrk.shinyapps.io/IMDB_Viz_R/) of our R version. This Python version is an addition to our R version where I primarily focus on the relationship among numeric columns. By analyzing and visualizing the correlation between different movie metrics, users can make more informed decisions about which movies to watch. Additionally, this approach allows for more sophisticated recommendations based on the user's preferences and movie history.
 
 
 
@@ -32,7 +32,7 @@ Our dashboard offers a comprehensive view of the numerical data from the origina
 
 ## Installation
 
-To start off, fork the repo from <https://github.com/louiewang820/IMDB_viz_python> and clone the forked repo to your local machine in [VScode](https://posit.co/download/rstudio-desktop/) by running:
+To start off, fork the repo from <https://github.com/louiewang820/IMDB_viz_python> and clone the forked repo to your local machine in [VScode](https://code.visualstudio.com/) by running:
 
 `git clone https://github.com/[Your-GitHub-Page]/IMDB_viz_python.git`
 
